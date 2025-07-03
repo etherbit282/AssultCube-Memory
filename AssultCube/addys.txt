@@ -1,0 +1,37 @@
+-- Offsets relative to ac_client.exe base
+local Offsets = {
+    LocalPlayer       = 0x0017E0A8,
+    EntityList        = 0x18AC04,
+    PlayerCount       = 0x18AC0C,
+    FOV               = 0x18A7CC,
+
+    -- Player struct offsets
+    Health            = 0xEC,
+    Armor             = 0xF0,
+    PositionX         = 0x2C,
+    PositionY         = 0x30,
+    PositionZ         = 0x28,
+    HeadPosX          = 0x4,
+    HeadPosY          = 0xC,
+    HeadPosZ          = 0x8,
+    CameraX           = 0x34,
+    CameraY           = 0x38,
+
+    -- Ammo offsets
+    AmmoPistol        = 0x12C,
+    AmmoShotgun       = 0x134,
+    AmmoSMG           = 0x138,
+    AmmoSniper        = 0x13C,
+    AmmoAssaultRifle  = 0x140,
+    AmmoGrenade       = 0x144,
+    AmmoCarbine       = 0x130,
+
+    -- Fire rate
+    FireRateAssaultRifle = 0x164,
+    FireRateSniper       = 0x160,
+    FireRateShotgun      = 0x158,
+
+    -- Extras
+    AutoShoot         = 0x204,
+    PlayerName        = 0x205,
+}
